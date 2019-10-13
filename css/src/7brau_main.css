@@ -1,48 +1,8 @@
 @charset "UTF-8";
 /* 7brau_main.css */
 
-/* wrap */
-#wrap {width:1340px; height:1919px;background-color: rgb(233, 229, 229);}
-
-
-
-/* headBox */
-#headBox {position:fixed; top:0; left:0; z-index:1000; width: 1340px; height: 100px; 
-          padding:5px 20px; box-sizing:border-box; background-color: rgb(238, 225, 45);}
-#headBox > h1 {float:left; margin-top:15px; width: 190px; height: 60px; background-color:#faf}
- 
-  #headBox > .gnb {float:right; margin-right:55px; margin-bottom:200px; width:770px; height: 70px; background-color: rgb(197, 17, 17);}
-    
-    #headBox > .gnb > ul > li:nth-child(1) {float:right; width: 100px; height: 50px; background-color: rgb(116, 75, 75);}
-    #headBox > .gnb > ul > li:nth-child(2) {float:right; width: 100px; height: 50px; background-color: rgb(165, 38, 38);}
-    #headBox > .gnb > ul > li:nth-child(3) {float:right; width: 100px; height: 50px; background-color: rgb(235, 5, 5);}
-    #headBox > .gnb > ul > li:nth-child(4) {float:right; width: 100px; height: 50px; background-color: rgb(52, 117, 179);}
-    #headBox > .gnb > ul > li:nth-child(5) {float:right; width: 100px; height: 50px; background-color: rgb(17, 146, 56);}
-    #headBox > .gnb > ul > li:nth-child(6) {float:right; width: 100px; height: 50px; background-color: rgb(137, 182, 15);}
-
-    
-
-/* contentBox */
-#contentBox {position:relative; width: 100%; height:1819px;background-color: rgb(179, 176, 176);}
-.view_area {float:right; margin-right:190px; margin-top:200px; width:940px; height: 500px; background-color: rgb(128, 127, 127);}
- .left_nav {float:right; margin-right:1000px; margin-top:180px; width: 70px; height: 75px; background-color: rgb(235, 219, 5);}
- .right_nav {position:absolute; float:right; margin-left:1000px; margin-top:180px; width: 70px; height: 75px; background-color: rgb(235, 219, 5);}
-
- .india {position:relative; margin-top:750px; margin-left:550px; width: 600px; height: 295px; background-color: rgb(192, 211, 24);}
- .gangseo {margin-left:550px; margin-top:30px; width: 600px; height: 295px; background-color: rgb(119, 128, 39);}
- .jeolla {margin-left:550px; margin-top:30px; width: 600px; height: 295px; background-color: rgb(75, 78, 49);}
-    .india_intro {float:right; margin-right:440px; margin-top:95px; width: 500px; height: 105px; background-color: rgb(16, 34, 136);} 
-    .gangseo_intro {float:right; margin-right:440px; margin-top:95px; width: 500px; height: 105px; background-color: rgb(100, 21, 226);}
-    .jeolla_intro {float:right; margin-right:440px; margin-top:95px; width: 500px; height: 105px; background-color: rgb(88, 18, 109);}
-
-
-
-/* footBox */
-#footBox {width:1340px; height: 200px; background-color: rgb(34, 105, 105);}
-
-/* 상단으로 이동 */
-.top_button {position:fixed; right:600px; bottom:90px; z-index:500;
-             width: 54px; height: 54px; border: 3px solid #555; box-sizing:border-box;
-             background-color: rgb(236, 11, 11);}
-.top_button > a {display:block; width: 100%; height: 100%; }
-/* 상단으로 이동  */
+@import url("../url/7brau_main_common.css");
+@import url("../url/7brau_main_mobile_480.css");
+@import url("../url/7brau_main_tablet_768.css");
+@import url("../url/7brau_main_pc_1340.css");
+@import url("../url/7brau_main_pc_1929.css");

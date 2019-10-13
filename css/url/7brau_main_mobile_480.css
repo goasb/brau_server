@@ -1,0 +1,7 @@
+/* 7brau_main_mobile_480.css */
+
+/* - design 기준 : 480px ============================ */
+@media screen and (max-width:767px) {
+    .view_area {background-color: #afa;}
+}
+

@@ -1,0 +1,7 @@
+/* 7brau_main_tablet_768.css */
+
+/* - design 기준 : 768px =============================*/
+@media screen and (min-width:768px) and (max-width:1339px) {
+    .view_area {background-color: rgb(49, 53, 36);}
+    #footBox {height:100px;}
+}
