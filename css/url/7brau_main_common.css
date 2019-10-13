@@ -21,16 +21,20 @@
     
 
 /* contentBox */
-#contentBox {padding-top:5px; width: 100%; height:auto; background-color: rgb(179, 176, 176);}
-#viewBox {position:relative; margin:auto; padding:95px; box-sizing:border-box; width: 100%; height: 625px; background-color: #faf;}
+#contentBox {padding-top:5px; width: 100%; height:auto;}
+
+#viewBox {position:relative; margin:auto; padding:95px; box-sizing:border-box; width: 100%; height: 625px; background-color: #fff;}
  .view_area {margin:auto; margin-top:30px; width:940px; height: 500px; background-color: rgb(128, 127, 127);}
  .left_nav {position:absolute; top:100px; bottom:0; left:60px; margin:auto; width: 70px; height: 75px; background-color: rgb(235, 219, 5);}
  .right_nav {position:absolute; top:100px; bottom:0; right:60px; margin:auto; width: 70px; height: 75px; background-color: rgb(235, 219, 5);}
 
+/* .brand_area {position:relative; width: 225px; height: 70px; background-color: #2ff;}
+.brand_area > li {width:130px; height: 70px; text-align: center; line-height:70px; font-size:14px;}
+.brand_area > .more_button_02 {float:right; width: 80px; height: 50px; background-color:#f6f;} */
 
-#beerBox{position:relative; width: 100%; height: 1619px; padding: 70px; box-sizing: border-box;background-color: rgb(8, 6, 6);}
-.zip {margin:auto; width: 940px; height: 1200px; background-color: #2af;}
-.beer {float:right; margin-top:36px; width:600px; height: 300px; }
+#beerBox{position:relative; width: 100%; height:1090px; background-color: #fff;}
+.zip {margin:auto; width: 940px; height: 1090px;}
+.beer {float:right; margin-top:36px;  width:600px; height: 300px; }
  .india {background-color: rgb(233, 4, 4);}
  .gangseo {background-color: rgb(255, 168, 6);}
  .jeolla {background-color: rgba(1, 255, 44, 0.582);}
@@ -41,11 +45,11 @@
 
 
 /* footBox */
-#footBox {width:100%; height: auto; background-color: rgb(34, 105, 105);}
+#footBox {width:100%; height: 200px; background-color: rgb(235, 219, 5);}
 
 /* 상단으로 이동 */
 .top_button {position:fixed; right:5%; bottom:5%; z-index:500;
-             width: 5.4vw; height: 5.4vw; border: 3px solid #555; box-sizing:border-box;
+             width: 3vw; height: 3vw; border: 3px solid #555; box-sizing:border-box;
              background-color: rgb(236, 11, 11);}
 .top_button > a {display:block; width: 100%; height: 100%; }
 /* 상단으로 이동  */
