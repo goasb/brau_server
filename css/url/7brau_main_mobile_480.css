@@ -1,7 +1,30 @@
+@charset "UTF-8";
 /* 7brau_main_mobile_480.css */
+
 
 /* - design 기준 : 480px ============================ */
 @media screen and (max-width:767px) {
-    .view_area {background-color: #afa;}
-}
 
+#headBox {position: relative; margin:auto; width:480px; width: 100vw; height: 30px; 
+          background-color: rgb(238, 225, 45);}
+  h1 {position:absolute; right:0; left:0; margin:auto; width: 50px; height: 30px;                              background-color:rgb(26, 47, 243)}
+
+.gnb > ul {display:none;}
+
+.gnb > .Category {width: 20px; width:6vw; height: 30px;}
+.gnb > .Category > i {line-height:30px;}
+/* headBox ================================================================== */
+
+
+#contentBox {width: 100%; height:auto;}
+
+#viewBox {position:relative; margin:auto; width: 100%; height: 250px; background-color: #faf;}
+ .view_area{width:100%; height: 250px; background-color: #aff;}
+ .left_nav {position: absolute; top:0; bottom:20px; left:20px; margin:auto; width: 20px; height: 26px; background-color: #faa;}
+ .right_nav {position: absolute; top:0; bottom:20px; right:20px; margin:auto; width: 20px; height: 26px; background-color: #faa;}
+
+ .view_area {width: 100%; height: 250px;
+background-image: url("../img/view_area.jpg");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size: 100% auto;}
