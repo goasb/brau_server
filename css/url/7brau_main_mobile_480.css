@@ -8,7 +8,7 @@
 #headBox {position: relative; margin:auto; width:480px; width: 100vw; height: 30px; 
           background-color: rgb(238, 225, 45);}
   h1 {position:absolute; right:0; left:0; margin:auto; margin-top:5px; width: 50px; height: 20px;
-    background-image: url("../img/main_logo.jpg");
+    background-image: url("../img/main_logo.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 100% auto;}
@@ -16,7 +16,7 @@
 .gnb > ul {display:none;}
 
 .gnb > .Category {width: 20px; width:6vw; height: 30px;}
-.gnb > .Category > i {line-height:30px;}
+.gnb > .Category > i {font-size:20px; line-height:30px;}
 /* headBox ================================================================== */
 
 
@@ -24,9 +24,11 @@
 
 #viewBox {position:relative; margin:auto; width: 100%; height: 250px; background-color: #faf;}
  .view_area{width:100%; height: 250px; background-color: #aff;}
- .left_nav {position: absolute; top:0; bottom:20px; left:10px; margin:auto; width: 20px; height: 26px; background-color: #faa;}
- .right_nav {position: absolute; top:0; bottom:20px; right:10px; margin:auto; width: 20px; height: 26px; background-color: #faa;}
-
+ .left_nav {position: absolute; top:0; bottom:20px; left:10px; margin:auto; width: 20px; height: 26px;}
+ .left_nav > i {font-size:35px; text-align:center; line-height:26px; color:#fff;}
+ 
+ .right_nav {position: absolute; top:0; bottom:20px; right:10px; margin:auto; width: 20px; height: 26px;}
+ .right_nav > i {font-size:35px; text-align:center; line-height:26px; color:#fff;}
  /* 이미지 ============================================= */
  .view_area {width: 100%; height: 250px;
 background-image: url("../img/view_area.jpg");
@@ -35,28 +37,33 @@ background-position: 50% 50%;
 background-size: 100% auto;}
 /* 이미지 ============================================= */
 
-.brand_area {position:relative; margin:auto; margin-top:15px; width:420px; height: 20px; background-color: #faf;}
-h4 {position:absolute; float:left; width: 50px; height: 20px; background-color: #aff;}
-.brand_area > .more_button_02 {position:absolute; margin-left:345px; width: 75px; height: 20px; background-color: #aff;}
+.brand_area {position:relative; margin:auto; margin-top:15px; width:420px; height: 20px;}
+h4 {position:absolute; float:left; width: 50px; height: 20px;}
+.brand_area > .more_button_02 {position:absolute; margin-left:345px; width: 75px; height: 20px;
+                               font-size:14px; text-align:left; line-height:20px;}
+.brand_area > i {position:absolute; margin-left:405px; width: 10px; height: 20px;
+                 text-align:center; line-height:20px;}
+
 
 #beerBox {margin:auto; margin-top:30px; width: 420px; height: 325px; 
           background-repeat: no-repeat;
           background-position: 50% 50%;
           background-size: 100% auto;}
-  .india {float:left; width: 180px; height: 100px; margin-top:30px; background-color: #5ff;
+  .india {float:left; width: 180px; height: 100px; margin-top:30px;
           background-image: url("../img/india_Ale.jpg");}
 
-  .gangseo {float:right; width: 180px; height: 100px; margin-top:30px; background-color: rgb(23, 43, 43);
+  .gangseo {float:right; width: 180px; height: 100px; margin-top:30px;
             background-image: url("../img/gangseo_Ale.jpg");}
-  .jeolla {float:left; width: 180px; height: 100px; margin-top:60px; background-color: rgb(101, 173, 173);
+  .jeolla {float:left; width: 180px; height: 100px; margin-top:60px;
             background-image: url("../img/jeolla_Ale.jpg");}
-  .hangang {float:right; width: 180px; height: 100px; margin-top:60px; background-color: rgb(194, 34, 34);
+  .hangang {float:right; width: 180px; height: 100px; margin-top:60px;
             background-image: url("../img/hangang_Ale.jpg");}
 
-    .india_intro {width: 180px; height: 20px; margin-top:-20px; font-size:10px; text-align: left; line-height:20px;}
-    .gangseo_intro {width: 180px; height: 20px; margin-top:-20px; font-size:10px; text-align: left; line-height:20px;}
-    .jeolla_intro {width: 180px; height: 20px; margin-top:-20px; font-size:10px; text-align: left; line-height:20px;}
-    .hangang_intro {width: 180px; height: 20px; margin-top:-20px; font-size:10px; text-align: left; line-height:20px;}
+    .india_intro {width: 180px; height: 20px; margin-top:-20px; font-size:11px; text-align: left; line-height:20px;}
+    .gangseo_intro {width: 180px; height: 20px; margin-top:-20px; font-size:11px; text-align: left; line-height:20px;}
+    .jeolla_intro {width: 180px; height: 20px; margin-top:-20px; font-size:11px; text-align: left; line-height:20px;}
+    .hangang_intro {width: 180px; height: 20px; margin-top:-20px; font-size:11px; text-align: left; line-height:20px;}
 
 /* footBox ====================================================================== */
 #footBox {width: 100%; height: 70px; background-color:rgb(238, 225, 45);}
+
