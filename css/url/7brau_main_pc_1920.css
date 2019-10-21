@@ -1,8 +1,0 @@
-/* 7brau_main_main_pc_1920.css */
-
-
-/* - design 기준 : 1920px =============================*/
-@media screen and (min-width:1920px) {
-    .view_area {background-color: rgb(75, 29, 29);}
-    #footBox {width:100%; height:100px;}
-}

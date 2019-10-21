@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* bank.css */
+
+#wrap {width: 865px; height: auto; background-color: #faf;}
+#headBox {position:fixed; top:0; left:0; z-index:1000; width: 100%; height:auto; 
+    box-sizing: border-box; 
+    
+    background-color: #fff;}
+    
+ .unb {position:relative; z-index:100; width: 100%; height: 80px;}
+   h1 {margin-left:26vw; width: 150px; height: 100%;
+       background-image:url("../img/bank.png"); 
+       background-repeat:no-repeat ; 
+       background-position: 50% 50%;
+       background-size:contain;}
+
+#headBox:after,
+#headBox::after {content:" "; display: block; position: absolute; z-index:10; top:120px; 
+                 width: 100%; left:0; height: 0;}
+
+#gnb {position: relative; margin:auto; width: 100%; height: 65px; margin:auto;}
+
+
+#gnb:after,
+#gnb::after {content:" "; display:block; position: absolute; left:0; bottom:0; width: 100vw; border-bottom: 1px solid #ccc;}
+.unb:after,
+.unb::after {content:" "; display:block; position: absolute; left:0; bottom:0; width: 100vw; border-bottom: 1px solid #ccc;}
+
+#gnb ul {position:relative; margin:auto; width: 100%; height:65px; 
+         padding:0 25vw; background-color: #fff; box-sizing: border-box;}
+
+#gnb ul:before,
+#gnb ul::before {content:" "; display: block; position:absolute; z-index:-1; 
+                   top:0; left:50%; margin-left:-50vw; width:100vw; height: 
+                   100%; background-color:inherit; }
+
+#gnb ul:after,
+#gnb ul::after{content:" "; display: block; width: 100%; height: 0; clear:both;}
+
+#gnb ul > li {float:left; width: 20%; height: auto;
+                box-sizing:border-box; text-align: center;}
+
+#gnb dl     {position:relative; width: 100%; height: auto;}
+#gnb dt     {width: 100%; height: 100px;}
+#gnb dt > a {display:block; position:relative;  z-index:100; width: 100%; height: 65px; box-sizing:border-box; 
+             padding-top:20px; color:#171717; font-size:1.4rem; font-weight:bold; text-align: center; line-height:35px;}
+
+#gnb dt:before,
+#gnb dt::before {content:" "; display:block; position: absolute; top:30px; width: 1px; height: 15px; background-color: #ccc;}
+#gnb li:nth-child(1) dt:before {display:none;}
+
+#gnb dt:after,           
+#gnb dt::after {content:" "; display:block; position: relative; padding-bottom:10px;  width: 100%; left:0; height: 0;}
+
+#gnb dd {display:none;}
+#gnb dd {width: 100%; height: auto;}
+#gnb dd > a {display: block; width: 100%; height:auto; padding:5px 0; padding-left:42px; margin-bottom:5px; color:#333; text-align:left;}
